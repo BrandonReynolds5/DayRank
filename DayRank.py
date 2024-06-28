@@ -46,7 +46,7 @@ def find_best_route(adjacency_matrix, day_rank_scores, start_node, daily_goals):
 
     Parameters:
     - adjacency_matrix (np.array): Weighted adjacency matrix.
-    - page_rank_scores (np.array): The DayRank scores for each node.
+    - day_rank_scores (np.array): The DayRank scores for each node.
     - start_node (int): The starting node (location).
     - daily_goals (list of int): The nodes representing the daily goals.
 
